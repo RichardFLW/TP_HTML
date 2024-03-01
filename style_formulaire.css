@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  background-color: #eadfb4;
+  padding: 20px;
+}
+
+.form {
+  text-align: left;
+  background-color: #b7dcee;
+  padding: 15px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.menu {
+  background-color: #f6995c;
+  padding: 15px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  margin-left: 25px;
+}
+
+.nav {
+  background-color: #f6995c;
+  height: 50px;
+}
