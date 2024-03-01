@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulaire</h1>
+    <a href="index.html">Home</a><br />
+
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" />
+    <hr />
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" />
+    <hr />
+    <label for="mail">Mail :</label>
+    <input type="mail" id="mail" />
+    <hr />
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" />
+    <hr />
+    <label for="date">quel mois préférez-vous pour le voyage ?</label>
+    <select name="" id="mois">
+      <option value="janvier">Janvier</option>
+      <option value="Février">Février</option>
+      <option value="Mars">Mars</option>
+      <option value="Avril">Avril</option>
+      <option value="Mai" selected>mai</option>
+    </select>
+    <br />
+
+    <textarea name="commentaires" id="" cols="30" rows="10">
+ votre avis sur le site...
+
+    </textarea>
+
+    <fieldset>
+      <legend>Genre</legend>
+      <input type="radio" id="homme" />
+      <label for="homme">Homme</label>
+      <br />
+      <input type="radio" id="femme" />
+      <label for="femme">femme</label>
+      <br />
+      <input type="radio" id="Autre" />
+      <label for="Autre">Autre</label>
+    </fieldset>
+    <fieldset>
+      <legend>Villes de départs spuhaité</legend>
+      <ul>
+        <li>
+          <label for="lille">Lille</label>
+          <input type="checkbox" id="lille" />
+        </li>
+        <li>
+          <label for="Paris">Paris</label>
+          <input type="checkbox" id="Paris" checked />
+        </li>
+
+        <li>
+          <label for="Bruxelles">Bruxelles</label>
+          <input type="checkbox" id="Bruxelles" />
+        </li>
+      </ul>
+    </fieldset>
+  </body>
+</html>
